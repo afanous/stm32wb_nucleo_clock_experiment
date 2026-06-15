@@ -1,5 +1,5 @@
 Drivers/CMSIS/system_stm32wbxx.o: \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/Core/Src/system_stm32wbxx.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/Core/Src/system_stm32wbxx.c \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wb55xx.h \
  ../../../../../../../Drivers/CMSIS/Include/core_cm4.h \

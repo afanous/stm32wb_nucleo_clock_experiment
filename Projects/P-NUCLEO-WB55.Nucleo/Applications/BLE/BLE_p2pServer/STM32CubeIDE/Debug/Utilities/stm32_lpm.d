@@ -1,6 +1,6 @@
 Utilities/stm32_lpm.o: \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Utilities/lpm/tiny_lpm/stm32_lpm.c \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Utilities/lpm/tiny_lpm/stm32_lpm.h \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Utilities/lpm/tiny_lpm/stm32_lpm.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Utilities/lpm/tiny_lpm/stm32_lpm.h \
  ../../Core/Inc/utilities_conf.h \
  ../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../../../../../../../Drivers/CMSIS/Include/cmsis_gcc.h \
@@ -60,7 +60,7 @@ Utilities/stm32_lpm.o: \
  ../../../../../../../Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo_errno.h \
  ../../Core/Inc/stm32wbxx_nucleo_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/core/ble_bufsize.h
-C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Utilities/lpm/tiny_lpm/stm32_lpm.h:
+C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Utilities/lpm/tiny_lpm/stm32_lpm.h:
 ../../Core/Inc/utilities_conf.h:
 ../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h:
 ../../../../../../../Drivers/CMSIS/Include/cmsis_gcc.h:

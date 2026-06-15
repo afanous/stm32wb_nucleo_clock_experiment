@@ -1,5 +1,5 @@
 Application/User/Core/hw_uart.o: \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/Core/Src/hw_uart.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/Core/Src/hw_uart.c \
  ../../Core/Inc/app_common.h ../../Core/Inc/app_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
  ../../Core/Inc/hw_conf.h ../../Core/Inc/hw_if.h \

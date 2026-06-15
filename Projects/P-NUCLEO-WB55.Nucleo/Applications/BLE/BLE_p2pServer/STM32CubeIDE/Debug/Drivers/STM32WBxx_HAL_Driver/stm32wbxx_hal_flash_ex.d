@@ -1,5 +1,5 @@
 Drivers/STM32WBxx_HAL_Driver/stm32wbxx_hal_flash_ex.o: \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c \
  ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h \
  ../../Core/Inc/stm32wbxx_hal_conf.h \
  ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_dma.h \

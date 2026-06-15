@@ -1,5 +1,5 @@
 Middlewares/STM32_WPAN/hci_tl.o: \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.c \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/ble_common.h \
  ../../STM32_WPAN/App/ble_conf.h ../../Core/Inc/app_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
@@ -68,8 +68,8 @@ Middlewares/STM32_WPAN/hci_tl.o: \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/core/template/osal.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/core/template/compiler.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/utilities/stm_list.h \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.h
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.h
 ../../../../../../../Middlewares/ST/STM32_WPAN/ble/ble_common.h:
 ../../STM32_WPAN/App/ble_conf.h:
 ../../Core/Inc/app_conf.h:
@@ -140,5 +140,5 @@ Middlewares/STM32_WPAN/hci_tl.o: \
 ../../../../../../../Middlewares/ST/STM32_WPAN/ble/core/template/osal.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/ble/core/template/compiler.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/utilities/stm_list.h:
-C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h:
-C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.h:
+C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h:
+C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/hci_tl.h:

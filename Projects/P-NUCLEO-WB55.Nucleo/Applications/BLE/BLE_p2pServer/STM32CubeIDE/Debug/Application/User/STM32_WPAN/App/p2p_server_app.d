@@ -1,5 +1,5 @@
 Application/User/STM32_WPAN/App/p2p_server_app.o: \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/p2p_server_app.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/p2p_server_app.c \
  ../../Core/Inc/main.h \
  ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h \
  ../../Core/Inc/stm32wbxx_hal_conf.h \
@@ -108,7 +108,7 @@ Application/User/STM32_WPAN/App/p2p_server_app.o: \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/svc/Inc/template_stm.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/svc/Inc/svc_ctl.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/svc/Inc/uuid.h \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/p2p_server_app.h \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/p2p_server_app.h \
  ../../../../../../../Utilities/sequencer/stm32_seq.h
 ../../Core/Inc/main.h:
 ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:
@@ -221,5 +221,5 @@ Application/User/STM32_WPAN/App/p2p_server_app.o: \
 ../../../../../../../Middlewares/ST/STM32_WPAN/ble/svc/Inc/template_stm.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/ble/svc/Inc/svc_ctl.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/ble/svc/Inc/uuid.h:
-C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/p2p_server_app.h:
+C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/STM32_WPAN/App/p2p_server_app.h:
 ../../../../../../../Utilities/sequencer/stm32_seq.h:

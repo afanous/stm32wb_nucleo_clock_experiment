@@ -1,6 +1,6 @@
 Middlewares/STM32_WPAN/p2p_stm.o: \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/ble/svc/Src/common_blesvc.h \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/ble/svc/Src/p2p_stm.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/ble/svc/Src/common_blesvc.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/ble_common.h \
  ../../STM32_WPAN/App/ble_conf.h ../../Core/Inc/app_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
@@ -107,7 +107,7 @@ Middlewares/STM32_WPAN/p2p_stm.o: \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/svc/Inc/svc_ctl.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/svc/Inc/uuid.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/utilities/dbg_trace.h
-C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/ble/svc/Src/common_blesvc.h:
+C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/ble/svc/Src/common_blesvc.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/ble/ble_common.h:
 ../../STM32_WPAN/App/ble_conf.h:
 ../../Core/Inc/app_conf.h:

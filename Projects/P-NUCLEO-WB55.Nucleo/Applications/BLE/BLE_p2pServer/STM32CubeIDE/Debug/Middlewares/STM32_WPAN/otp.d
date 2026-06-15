@@ -1,6 +1,6 @@
 Middlewares/STM32_WPAN/otp.o: \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/utilities/otp.c \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/utilities/utilities_common.h \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/utilities/otp.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/utilities/utilities_common.h \
  ../../Core/Inc/app_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
  ../../Core/Inc/hw_conf.h ../../Core/Inc/hw_if.h \
@@ -58,8 +58,8 @@ Middlewares/STM32_WPAN/otp.o: \
  ../../../../../../../Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo_errno.h \
  ../../Core/Inc/stm32wbxx_nucleo_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/core/ble_bufsize.h \
- C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/utilities/otp.h
-C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/utilities/utilities_common.h:
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/utilities/otp.h
+C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/utilities/utilities_common.h:
 ../../Core/Inc/app_conf.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h:
 ../../Core/Inc/hw_conf.h:
@@ -118,4 +118,4 @@ C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32
 ../../../../../../../Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo_errno.h:
 ../../Core/Inc/stm32wbxx_nucleo_conf.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/ble/core/ble_bufsize.h:
-C:/Users/tony_/STM32Cube/Repository/STM32Cube_FW_WB_V1.22.0/Middlewares/ST/STM32_WPAN/utilities/otp.h:
+C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/utilities/otp.h:
