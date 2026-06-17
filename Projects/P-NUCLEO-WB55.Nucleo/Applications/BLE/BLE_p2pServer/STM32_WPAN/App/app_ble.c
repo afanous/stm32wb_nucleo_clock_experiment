@@ -1524,5 +1524,19 @@ void SVCCTL_ResumeUserEventFlow(void)
 }
 
 /* USER CODE BEGIN FD_WRAP_FUNCTIONS */
+void APP_BLE_Stop_Advertising(void)
+{
+    /* Request BLE stack to make device non-discoverable */
+    aci_gap_set_non_discoverable();
 
+    /* Optional: Turn off radio power completely if supported by your firmware version */
+    // hci_le_set_advertise_enable(0);
+}
+
+void APP_BLE_Start_Advertising(void)
+{
+    /* Call your standard generated advertising startup routine */
+    /* Typically: Adv_Request(ADV_FAST); */
+    Adv_Request(APP_BLE_FAST_ADV);
+}
 /* USER CODE END FD_WRAP_FUNCTIONS */

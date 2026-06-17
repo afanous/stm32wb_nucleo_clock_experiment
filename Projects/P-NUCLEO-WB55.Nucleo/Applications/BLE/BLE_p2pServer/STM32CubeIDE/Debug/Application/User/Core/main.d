@@ -1,5 +1,5 @@
 Application/User/Core/main.o: \
- C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/Core/Src/main.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/Core/Src/main.c \
  ../../Core/Inc/main.h \
  ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h \
  ../../Core/Inc/stm32wbxx_hal_conf.h \
@@ -58,7 +58,8 @@ Application/User/Core/main.o: \
  ../../../../../../../Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo_errno.h \
  ../../Core/Inc/stm32wbxx_nucleo_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/ble/core/ble_bufsize.h \
- ../../Core/Inc/app_entry.h ../../Core/Inc/app_common.h
+ ../../Core/Inc/app_entry.h ../../Core/Inc/app_common.h \
+ ../../../../../../../Utilities/lpm/tiny_lpm/stm32_lpm.h
 ../../Core/Inc/main.h:
 ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:
 ../../Core/Inc/stm32wbxx_hal_conf.h:
@@ -120,3 +121,4 @@ Application/User/Core/main.o: \
 ../../../../../../../Middlewares/ST/STM32_WPAN/ble/core/ble_bufsize.h:
 ../../Core/Inc/app_entry.h:
 ../../Core/Inc/app_common.h:
+../../../../../../../Utilities/lpm/tiny_lpm/stm32_lpm.h:

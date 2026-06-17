@@ -1,5 +1,5 @@
 Application/User/Core/stm32_lpm_if.o: \
- C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/Core/Src/stm32_lpm_if.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/Core/Src/stm32_lpm_if.c \
  ../../Core/Inc/stm32_lpm_if.h \
  ../../../../../../../Utilities/lpm/tiny_lpm/stm32_lpm.h \
  ../../Core/Inc/app_conf.h \

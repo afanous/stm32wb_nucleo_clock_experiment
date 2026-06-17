@@ -324,10 +324,10 @@ void DMA2_Channel4_IRQHandler(void)
  * @param  None
  * @retval None
  */
-void PUSH_BUTTON_SW1_EXTI_IRQHandler(void)
-{
-  HAL_GPIO_EXTI_IRQHandler(BUTTON_SW1_PIN);
-}
+//void PUSH_BUTTON_SW1_EXTI_IRQHandler(void)
+//{
+//  HAL_GPIO_EXTI_IRQHandler(BUTTON_SW1_PIN);
+//}
 
 /**
  * @brief  This function handles External line
@@ -349,6 +349,16 @@ void PUSH_BUTTON_SW2_EXTI_IRQHandler(void)
 void PUSH_BUTTON_SW3_EXTI_IRQHandler(void)
 {
   HAL_GPIO_EXTI_IRQHandler(BUTTON_SW3_PIN);
+}
+
+extern void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin);
+
+/**
+  * @brief This function handles EXTI line 4 interrupt.
+  */
+void EXTI4_IRQHandler(void)
+{
+    HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_4);
 }
 
 /* USER CODE END 1 */

@@ -1,5 +1,5 @@
 Application/User/Core/app_debug.o: \
- C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/Core/Src/app_debug.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Projects/P-NUCLEO-WB55.Nucleo/Applications/BLE/BLE_p2pServer/Core/Src/app_debug.c \
  ../../Core/Inc/app_common.h ../../Core/Inc/app_conf.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
  ../../Core/Inc/hw_conf.h ../../Core/Inc/hw_if.h \

@@ -1,12 +1,12 @@
 Middlewares/STM32_WPAN/tl_mbox.o: \
- C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl_mbox.c \
  ../../../../../../../Middlewares/ST/STM32_WPAN/stm32_wpan_common.h \
  ../../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \
  ../../../../../../../Drivers/CMSIS/Include/cmsis_gcc.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h \
  ../../../../../../../Middlewares/ST/STM32_WPAN/utilities/stm_list.h \
- C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h \
- C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/mbox_def.h \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/mbox_def.h \
  ../../STM32_WPAN/App/tl_dbg_conf.h ../../Core/Inc/app_conf.h \
  ../../Core/Inc/hw_conf.h ../../Core/Inc/hw_if.h \
  ../../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include/stm32wbxx.h \
@@ -69,8 +69,8 @@ Middlewares/STM32_WPAN/tl_mbox.o: \
 ../../../../../../../Drivers/CMSIS/Include/cmsis_gcc.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/hw.h:
 ../../../../../../../Middlewares/ST/STM32_WPAN/utilities/stm_list.h:
-C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h:
-C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/mbox_def.h:
+C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/tl.h:
+C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl/mbox_def.h:
 ../../STM32_WPAN/App/tl_dbg_conf.h:
 ../../Core/Inc/app_conf.h:
 ../../Core/Inc/hw_conf.h:

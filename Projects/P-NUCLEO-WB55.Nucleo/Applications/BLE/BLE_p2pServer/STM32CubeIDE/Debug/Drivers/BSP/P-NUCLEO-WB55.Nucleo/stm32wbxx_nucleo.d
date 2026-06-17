@@ -1,7 +1,7 @@
 Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o: \
- C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c \
- C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h \
- C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo_errno.h \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.c \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h \
+ C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo_errno.h \
  ../../Core/Inc/stm32wbxx_nucleo_conf.h \
  ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h \
  ../../Core/Inc/stm32wbxx_hal_conf.h \
@@ -42,8 +42,8 @@ Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.o: \
  ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_uart.h \
  ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_uart_ex.h \
  ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_ll_system.h
-C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h:
-C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/stm32wb_nucleo_clock_experiment/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo_errno.h:
+C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo.h:
+C:/Users/tony_/Documents/ARM_PROJECTS/WB55_NUCLEO/STOP2_MODE_WITH_RADIO/stm32wb_nucleo_clock_experiment/Drivers/BSP/P-NUCLEO-WB55.Nucleo/stm32wbxx_nucleo_errno.h:
 ../../Core/Inc/stm32wbxx_nucleo_conf.h:
 ../../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:
 ../../Core/Inc/stm32wbxx_hal_conf.h:

@@ -42,7 +42,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "stm32_lpm.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -73,7 +73,14 @@ RNG_HandleTypeDef hrng;
 RTC_HandleTypeDef hrtc;
 
 /* USER CODE BEGIN PV */
+typedef enum {
+    STATE_BLE_ACTIVE,
+    STATE_LOW_POWER
+} AppState_t;
 
+volatile AppState_t current_state = STATE_BLE_ACTIVE;
+volatile uint8_t button_pressed_flag = 0;
+uint32_t last_blink_time = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -86,7 +93,8 @@ static void MX_IPCC_Init(void);
 static void MX_RNG_Init(void);
 static void MX_RF_Init(void);
 /* USER CODE BEGIN PFP */
-
+void Enter_Low_Power_Stop2(void);
+void Resume_From_Stop2(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -144,13 +152,45 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-	while(1)
-	{
-    /* USER CODE END WHILE */
-    MX_APPE_Process();
+  last_blink_time = HAL_GetTick();
+  while (1)
+     {
+         /* Check if button was pressed (processed outside ISR for safety) */
+         if (button_pressed_flag)
+         {
+             button_pressed_flag = 0; // Clear flag
 
-    /* USER CODE BEGIN 3 */
-  }
+             if (current_state == STATE_BLE_ACTIVE)
+             {
+                 current_state = STATE_LOW_POWER;
+                 Enter_Low_Power_Stop2();
+             }
+             else
+             {
+                 current_state = STATE_BLE_ACTIVE;
+                 Resume_From_Stop2();
+             }
+         }
+
+         /* State machine logic */
+         if (current_state == STATE_BLE_ACTIVE)
+         {
+             /* Blink Blue LED (LED2) every 500ms */
+             if (HAL_GetTick() - last_blink_time >= 500)
+             {
+                 HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_4);
+                 last_blink_time = HAL_GetTick();
+             }
+
+             /* Allow BLE stack and background processes to run */
+             MX_APPE_Process();
+         }
+         else
+         {
+             /* If we woke up briefly but state is LOW_POWER, return to sleep */
+             Enter_Low_Power_Stop2();
+         }
+     }
   /* USER CODE END 3 */
 }
 
@@ -484,7 +524,59 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void Enter_Low_Power_Stop2(void)
+{
+    /* 1. Turn off Blue LED */
+    HAL_GPIO_WritePin(GPIOB, GPIO_PIN_4, GPIO_PIN_RESET);
 
+    /* 2. Stop BLE Advertising and notify CPU2 (M0+) to go to low power */
+    /* This function shuts down BLE Tx/Rx and stops advertising */
+    APP_BLE_Stop_Advertising();
+
+    /* 3. Disable Systick interrupts to prevent immediate wakeup */
+    HAL_SuspendTick();
+
+    /* 4. Request CPU2 to enter low power mode */
+    /* This ensures synchronization between Cortex-M4 and Cortex-M0+ */
+    /* (Part of STM32WB WPAN utilities) */
+    UTIL_LPM_SetStopMode(1 << CFG_LPM_APP, UTIL_LPM_ENABLE);
+
+    /* 5. Enter Stop 2 Mode */
+    /* CPU1 enters Stop 2; it will wake up when EXTI4 (SW1) triggers */
+    HAL_PWREx_EnterSTOP2Mode(PWR_STOPENTRY_WFI);
+}
+
+/**
+  * @brief Resumes normal operation after wakeup from Stop 2
+  */
+void Resume_From_Stop2(void)
+{
+    /* 1. Restore Clocks (SYSCLK is reset to MSI after Stop 2) */
+    SystemClock_Config();
+
+    /* 2. Resume Systick */
+    HAL_ResumeTick();
+
+    /* 3. Notify CPU2 to wake up stack and resume BLE */
+    UTIL_LPM_SetStopMode(1 << CFG_LPM_APP, UTIL_LPM_DISABLE);
+
+    /* 4. Restart BLE Advertising */
+    APP_BLE_Start_Advertising();
+
+    /* Reset blink timer */
+    last_blink_time = HAL_GetTick();
+}
+
+/**
+  * @brief EXTI line detection callback (Button Press)
+  */
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+    if (GPIO_Pin == GPIO_PIN_4) // SW1 pressed
+    {
+    	button_pressed_flag = 1;
+    }
+}
 /* USER CODE END 4 */
 
 /**
